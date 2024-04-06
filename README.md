@@ -1,5 +1,11 @@
 <h1 style="color:cyan;"> GIT </h1>
 
+CONFIG:
+
+- git config --global user.email \<email>
+- git config --global user.name \<name>
+
+
 CONCEPTS:
 
 - Repositories: Folders for files, managed by git.
@@ -26,3 +32,13 @@ COMMANDS:
 - git stash
 - git reset
 - HEAD
+
+WORK FLOW:
+
+- git init
+- git add .
+- git commit -m "message"
+- \<create repo in web>
+- git remote add origin \<link>
+- git branch -M main
+- git push -u origin main
