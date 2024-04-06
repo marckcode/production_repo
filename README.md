@@ -29,7 +29,7 @@ COMMANDS:
 - git rebase
 - git diff
 - git tag
-- git stash
+- git stash pop | recovers the last deleted commit
 - git reset
 - HEAD
 
@@ -42,3 +42,6 @@ WORK FLOW:
 - git remote add origin \<link>
 - git branch -M main
 - git push -u origin main
+
+
+# TEST CHANGE
